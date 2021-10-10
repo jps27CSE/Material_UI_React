@@ -84,6 +84,7 @@ const Navbar = () => {
                 <div className={classes.search}>
                     <Search />
                     <InputBase placeholder="Search.." className={classes.input} />
+                    <Cancel className={classes.cancel} onClick={() => setOpen(false)} />
                 </div>
                 <div className={classes.icons}>
                     <Search
